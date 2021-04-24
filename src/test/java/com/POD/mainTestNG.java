@@ -23,7 +23,7 @@ public class mainTestNG {
 	
   @BeforeClass
   public void launchBrowser() {
-	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Arjun Sharma\\Downloads\\chromedriver_win32 (1)_chrome88\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Arjun Sharma\\eclipse-workspace\\TestSwiggyAssignment\\driver\\chromedriver.exe");
 
 	  driver = new ChromeDriver();
   driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);

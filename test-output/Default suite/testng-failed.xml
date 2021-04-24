@@ -8,6 +8,7 @@
           <include name="SignUp"/>
           <include name="closeBrowser"/>
           <include name="launchBrowser"/>
+          <include name="SearchItem"/>
         </methods>
       </class> <!-- com.POD.mainTestNG -->
     </classes>
